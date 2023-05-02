@@ -14,8 +14,8 @@ from .filters import TitleFilter
 from .permissions import IsAdmin, PermissionForReviewComment, ReadOnly
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer,
-                          TitleGetSerializer,
-                          UserCreateSerializer, UserSerializer)
+                          TitleGetSerializer, UserCreateSerializer,
+                          UserSerializer)
 
 
 @api_view(['POST'])
