@@ -14,7 +14,7 @@ from .filters import TitleFilter
 from .permissions import IsAdmin, PermissionForReviewComment, ReadOnly
 from .serializers import (CategorySerializer, CommentSerializer,
                           GenreSerializer, ReviewSerializer,
-                          TitleGetSerializer, TitlePostSerializer,
+                          TitleGetSerializer,
                           UserCreateSerializer, UserSerializer)
 
 
@@ -143,8 +143,7 @@ class TitleViewSet(viewsets.ModelViewSet):
     permission_classes = (IsAuthenticated & IsAdmin | ReadOnly, )
 
     def get_serializer_class(self):
-        if self.request.method == 'GET':
-            return TitleGetSerializer
+        return TitleGetSerializer
 
 
 class ReviewViewSet(viewsets.ModelViewSet):
