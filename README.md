@@ -102,3 +102,4 @@ headers = {'Authorization': 'Bearer your_token'}
  "pub_date": "2022-11-20T14:15:22Z"
 }
 ```
+пример
