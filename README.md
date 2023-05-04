@@ -1,6 +1,8 @@
 ![finaltask](https://github.com/seregatipich/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 # yamdb_final
 yamdb_final
+
+проект здесь - http://158.160.44.238/redoc/ и http://158.160.44.238/api/v1/
 # API_YamDB
 
 REST API для сервиса YaMDb — базы отзывов о фильмах, книгах и музыке.
